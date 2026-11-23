@@ -1,0 +1,902 @@
+{
+  "matlab_version": "25.1.0.2943329 (R2025a)",
+  "oracle_comparisons": 591,
+  "cases": [
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "664"
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0024417,
+      "counting_seconds": 0.100924,
+      "elapsed_seconds": 0.1033657,
+      "stats": {
+        "work_units": 2318,
+        "count_calls": 36,
+        "generation_calls": 32,
+        "generated_pairs": 145,
+        "affine_families": 76,
+        "deviation_nodes": 20,
+        "dp_families": 56,
+        "dp_states": 816,
+        "wef_terminals": 4,
+        "wef_nodes": 508,
+        "coefficient_products": 625
+      },
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "weights": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "34",
+        "264",
+        "366"
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0077192,
+      "counting_seconds": 0.2182545,
+      "elapsed_seconds": 0.2259737,
+      "stats": {
+        "work_units": 4182,
+        "count_calls": 36,
+        "generation_calls": 32,
+        "generated_pairs": 145,
+        "affine_families": 76,
+        "deviation_nodes": 50,
+        "dp_families": 56,
+        "dp_states": 2575,
+        "wef_terminals": 4,
+        "wef_nodes": 508,
+        "coefficient_products": 700
+      },
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "366"
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 28,
+      "transmitted_dimension": 28,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0035128,
+      "counting_seconds": 0.0861889,
+      "elapsed_seconds": 0.0897017,
+      "stats": {
+        "work_units": 1146,
+        "count_calls": 41,
+        "generation_calls": 47,
+        "generated_pairs": 198,
+        "affine_families": 122,
+        "deviation_nodes": 78,
+        "enumerated_families": 44,
+        "dp_families": 44,
+        "dp_states": 572
+      },
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "weights": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "3",
+        "132",
+        "366"
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 30,
+      "transmitted_dimension": 30,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0023422,
+      "counting_seconds": 0.1516208,
+      "elapsed_seconds": 0.153963,
+      "stats": {
+        "work_units": 2154,
+        "count_calls": 43,
+        "generation_calls": 47,
+        "generated_pairs": 198,
+        "affine_families": 122,
+        "deviation_nodes": 74,
+        "dp_families": 80,
+        "dp_states": 1582,
+        "enumerated_families": 8
+      },
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "472"
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.003645,
+      "counting_seconds": 0.1237805,
+      "elapsed_seconds": 0.1274255,
+      "stats": {
+        "work_units": 2318,
+        "count_calls": 36,
+        "generation_calls": 32,
+        "generated_pairs": 145,
+        "affine_families": 76,
+        "deviation_nodes": 20,
+        "dp_families": 56,
+        "dp_states": 816,
+        "wef_terminals": 4,
+        "wef_nodes": 508,
+        "coefficient_products": 625
+      },
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "weights": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "26",
+        "184",
+        "282"
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0016824,
+      "counting_seconds": 0.1580236,
+      "elapsed_seconds": 0.159706,
+      "stats": {
+        "work_units": 4182,
+        "count_calls": 36,
+        "generation_calls": 32,
+        "generated_pairs": 145,
+        "affine_families": 76,
+        "deviation_nodes": 50,
+        "dp_families": 56,
+        "dp_states": 2575,
+        "wef_terminals": 4,
+        "wef_nodes": 508,
+        "coefficient_products": 700
+      },
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "262"
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 28,
+      "transmitted_dimension": 28,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0029895,
+      "counting_seconds": 0.0735709,
+      "elapsed_seconds": 0.0765604,
+      "stats": {
+        "work_units": 1146,
+        "count_calls": 41,
+        "generation_calls": 47,
+        "generated_pairs": 198,
+        "affine_families": 122,
+        "deviation_nodes": 78,
+        "enumerated_families": 44,
+        "dp_families": 44,
+        "dp_states": 572
+      },
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "weights": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "3",
+        "92",
+        "266"
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 30,
+      "transmitted_dimension": 30,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0016374,
+      "counting_seconds": 0.093613700000000008,
+      "elapsed_seconds": 0.0952511,
+      "stats": {
+        "work_units": 2154,
+        "count_calls": 43,
+        "generation_calls": 47,
+        "generated_pairs": 198,
+        "affine_families": 122,
+        "deviation_nodes": 74,
+        "dp_families": 80,
+        "dp_states": 1582,
+        "enumerated_families": 8
+      },
+      "kind": "pac",
+      "mode": "mixed"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "432"
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0060393,
+      "counting_seconds": 0.0879627,
+      "elapsed_seconds": 0.094002,
+      "stats": {
+        "work_units": 3192,
+        "count_calls": 66,
+        "generation_calls": 12,
+        "generated_pairs": 74,
+        "affine_families": 38,
+        "deviation_nodes": 14,
+        "dp_families": 24,
+        "dp_states": 672,
+        "wef_terminals": 4,
+        "wef_nodes": 1020,
+        "coefficient_products": 1268
+      },
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "weights": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "20",
+        "176",
+        "237"
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.006083,
+      "counting_seconds": 0.0937041,
+      "elapsed_seconds": 0.0997871,
+      "stats": {
+        "work_units": 4125,
+        "count_calls": 67,
+        "generation_calls": 18,
+        "generated_pairs": 80,
+        "affine_families": 41,
+        "deviation_nodes": 28,
+        "dp_families": 25,
+        "dp_states": 1404,
+        "wef_terminals": 4,
+        "wef_nodes": 1020,
+        "coefficient_products": 1438
+      },
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "236"
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 56,
+      "transmitted_dimension": 56,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0112793,
+      "counting_seconds": 0.0878842,
+      "elapsed_seconds": 0.0991635,
+      "stats": {
+        "work_units": 638,
+        "count_calls": 67,
+        "generation_calls": 31,
+        "generated_pairs": 184,
+        "affine_families": 134,
+        "deviation_nodes": 134,
+        "enumerated_families": 88
+      },
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "weights": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "2",
+        "88",
+        "236"
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 60,
+      "transmitted_dimension": 60,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0118517,
+      "counting_seconds": 0.1451436,
+      "elapsed_seconds": 0.1569953,
+      "stats": {
+        "work_units": 2678,
+        "count_calls": 71,
+        "generation_calls": 31,
+        "generated_pairs": 184,
+        "affine_families": 134,
+        "deviation_nodes": 104,
+        "dp_families": 66,
+        "dp_states": 2066,
+        "enumerated_families": 22
+      },
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "320"
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0066743,
+      "counting_seconds": 0.11651850000000001,
+      "elapsed_seconds": 0.1231928,
+      "stats": {
+        "work_units": 3192,
+        "count_calls": 66,
+        "generation_calls": 12,
+        "generated_pairs": 74,
+        "affine_families": 38,
+        "deviation_nodes": 14,
+        "dp_families": 24,
+        "dp_states": 672,
+        "wef_terminals": 4,
+        "wef_nodes": 1020,
+        "coefficient_products": 1268
+      },
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "weights": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "20",
+        "128",
+        "172"
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0117144,
+      "counting_seconds": 0.1083932,
+      "elapsed_seconds": 0.1201076,
+      "stats": {
+        "work_units": 4087,
+        "count_calls": 67,
+        "generation_calls": 18,
+        "generated_pairs": 78,
+        "affine_families": 39,
+        "deviation_nodes": 27,
+        "dp_families": 24,
+        "dp_states": 1372,
+        "wef_terminals": 4,
+        "wef_nodes": 1020,
+        "coefficient_products": 1438
+      },
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "184"
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 56,
+      "transmitted_dimension": 56,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0068901,
+      "counting_seconds": 0.0521553,
+      "elapsed_seconds": 0.0590454,
+      "stats": {
+        "work_units": 638,
+        "count_calls": 67,
+        "generation_calls": 31,
+        "generated_pairs": 184,
+        "affine_families": 134,
+        "deviation_nodes": 134,
+        "enumerated_families": 88
+      },
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "weights": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "2",
+        "70",
+        "174"
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 60,
+      "transmitted_dimension": 60,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0071008,
+      "counting_seconds": 0.12102139999999999,
+      "elapsed_seconds": 0.1281222,
+      "stats": {
+        "work_units": 2678,
+        "count_calls": 71,
+        "generation_calls": 31,
+        "generated_pairs": 184,
+        "affine_families": 134,
+        "deviation_nodes": 104,
+        "dp_families": 66,
+        "dp_states": 2066,
+        "enumerated_families": 22
+      },
+      "kind": "pac",
+      "mode": "mixed"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "96"
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0304385,
+      "counting_seconds": 0.0267193,
+      "elapsed_seconds": 0.0571578,
+      "stats": {
+        "work_units": 2344,
+        "count_calls": 128,
+        "wef_terminals": 2,
+        "wef_nodes": 1022,
+        "coefficient_products": 1192
+      },
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "weights": [
+        0,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "48",
+        "48"
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0297752,
+      "counting_seconds": 0.042451199999999994,
+      "elapsed_seconds": 0.0722264,
+      "stats": {
+        "work_units": 2450,
+        "count_calls": 128,
+        "wef_terminals": 2,
+        "wef_nodes": 1022,
+        "coefficient_products": 1298
+      },
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "48"
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 112,
+      "transmitted_dimension": 112,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0298546,
+      "counting_seconds": 0.04728750000000001,
+      "elapsed_seconds": 0.0771421,
+      "stats": {
+        "work_units": 362,
+        "count_calls": 117,
+        "generation_calls": 11,
+        "generated_pairs": 78,
+        "affine_families": 62,
+        "deviation_nodes": 62,
+        "enumerated_families": 32
+      },
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "weights": [
+        0,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "24",
+        "48"
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 120,
+      "transmitted_dimension": 120,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0304077,
+      "counting_seconds": 0.0394279,
+      "elapsed_seconds": 0.0698356,
+      "stats": {
+        "work_units": 874,
+        "count_calls": 125,
+        "generation_calls": 11,
+        "generated_pairs": 78,
+        "affine_families": 62,
+        "deviation_nodes": 78,
+        "dp_families": 8,
+        "dp_states": 488,
+        "enumerated_families": 24
+      },
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "96"
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0295749,
+      "counting_seconds": 0.0356171,
+      "elapsed_seconds": 0.065192,
+      "stats": {
+        "work_units": 2344,
+        "count_calls": 128,
+        "wef_terminals": 2,
+        "wef_nodes": 1022,
+        "coefficient_products": 1192
+      },
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "weights": [
+        0,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "48",
+        "48"
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0326283,
+      "counting_seconds": 0.042140399999999995,
+      "elapsed_seconds": 0.0747687,
+      "stats": {
+        "work_units": 2450,
+        "count_calls": 128,
+        "wef_terminals": 2,
+        "wef_nodes": 1022,
+        "coefficient_products": 1298
+      },
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "weights": [
+        0,
+        8
+      ],
+      "counts": [
+        "1",
+        "48"
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 112,
+      "transmitted_dimension": 112,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0295507,
+      "counting_seconds": 0.024034899999999998,
+      "elapsed_seconds": 0.0535856,
+      "stats": {
+        "work_units": 362,
+        "count_calls": 117,
+        "generation_calls": 11,
+        "generated_pairs": 78,
+        "affine_families": 62,
+        "deviation_nodes": 62,
+        "enumerated_families": 32
+      },
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "weights": [
+        0,
+        7,
+        8
+      ],
+      "counts": [
+        "1",
+        "24",
+        "48"
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": 8,
+      "evaluated_cutoff": 8,
+      "backend": "matlab",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 120,
+      "transmitted_dimension": 120,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0354232,
+      "counting_seconds": 0.0375683,
+      "elapsed_seconds": 0.0729915,
+      "stats": {
+        "work_units": 874,
+        "count_calls": 125,
+        "generation_calls": 11,
+        "generated_pairs": 78,
+        "affine_families": 62,
+        "deviation_nodes": 78,
+        "dp_families": 8,
+        "dp_states": 488,
+        "enumerated_families": 24
+      },
+      "kind": "pac",
+      "mode": "mixed"
+    }
+  ]
+}

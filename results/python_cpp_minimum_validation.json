@@ -1,0 +1,1817 @@
+{
+  "matlab_crosschecked_cases": 24,
+  "cases": [
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "664"
+      },
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00015510001685470343,
+      "counting_seconds": 0.004488199949264526,
+      "elapsed_seconds": 0.00464329996611923,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 2297,
+        "count_calls": 14,
+        "generation_calls": 32,
+        "generated_pairs": 145,
+        "affine_families": 76,
+        "deviation_nodes": 20,
+        "dp_families": 56,
+        "dp_states": 816,
+        "wef_terminals": 4,
+        "wef_nodes": 508,
+        "coefficient_products": 625
+      },
+      "dmin": 8,
+      "A_dmin": "664",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "664"
+      },
+      "dmin": 8,
+      "A_dmin": "664",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 5.9299985878169537e-05,
+      "counting_seconds": 0.0006689000874757767,
+      "elapsed_seconds": 0.0007282000733539462,
+      "stats": {
+        "work_units": 2297,
+        "affine_families": 76,
+        "coefficient_products": 625,
+        "count_calls": 14,
+        "deviation_nodes": 20,
+        "distance_trials": 1,
+        "dp_families": 56,
+        "dp_states": 816,
+        "generated_pairs": 145,
+        "generation_calls": 32,
+        "wef_nodes": 508,
+        "wef_terminals": 4
+      },
+      "binding_elapsed_seconds": 0.0019432000117376447,
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "34"
+      },
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00013830000534653664,
+      "counting_seconds": 0.0018779999809339643,
+      "elapsed_seconds": 0.002016299986280501,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 871,
+        "count_calls": 9,
+        "generation_calls": 21,
+        "generated_pairs": 45,
+        "affine_families": 26,
+        "deviation_nodes": 14,
+        "dp_families": 12,
+        "dp_states": 192,
+        "wef_terminals": 2,
+        "wef_nodes": 254,
+        "coefficient_products": 295
+      },
+      "dmin": 6,
+      "A_dmin": "34",
+      "search_cutoffs": [
+        6
+      ],
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "34"
+      },
+      "dmin": 6,
+      "A_dmin": "34",
+      "search_cutoffs": [
+        6
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 4.099996294826269e-05,
+      "counting_seconds": 0.00021780002862215042,
+      "elapsed_seconds": 0.0002587999915704131,
+      "stats": {
+        "work_units": 871,
+        "affine_families": 26,
+        "coefficient_products": 295,
+        "count_calls": 9,
+        "deviation_nodes": 14,
+        "distance_trials": 1,
+        "dp_families": 12,
+        "dp_states": 192,
+        "generated_pairs": 45,
+        "generation_calls": 21,
+        "wef_nodes": 254,
+        "wef_terminals": 2
+      },
+      "binding_elapsed_seconds": 0.0010724000167101622,
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "366"
+      },
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 28,
+      "transmitted_dimension": 28,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00013379997108131647,
+      "counting_seconds": 0.00377810001373291,
+      "elapsed_seconds": 0.003911899984814227,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 1129,
+        "count_calls": 23,
+        "generation_calls": 47,
+        "generated_pairs": 198,
+        "affine_families": 122,
+        "deviation_nodes": 78,
+        "enumerated_families": 44,
+        "dp_families": 44,
+        "dp_states": 572
+      },
+      "dmin": 8,
+      "A_dmin": "366",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "366"
+      },
+      "dmin": 8,
+      "A_dmin": "366",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 28,
+      "transmitted_dimension": 28,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 4.0599959902465343e-05,
+      "counting_seconds": 0.0004836000734940171,
+      "elapsed_seconds": 0.0005242000333964825,
+      "stats": {
+        "work_units": 1129,
+        "affine_families": 122,
+        "count_calls": 23,
+        "deviation_nodes": 78,
+        "distance_trials": 1,
+        "dp_families": 44,
+        "dp_states": 572,
+        "enumerated_families": 44,
+        "generated_pairs": 198,
+        "generation_calls": 47
+      },
+      "binding_elapsed_seconds": 0.0014045999851077795,
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "3"
+      },
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 30,
+      "transmitted_dimension": 30,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00013760000001639128,
+      "counting_seconds": 0.00044520001392811537,
+      "elapsed_seconds": 0.0005828000139445066,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 58,
+        "count_calls": 5,
+        "generation_calls": 9,
+        "generated_pairs": 9,
+        "affine_families": 6,
+        "deviation_nodes": 4,
+        "dp_families": 2,
+        "dp_states": 22
+      },
+      "dmin": 6,
+      "A_dmin": "3",
+      "search_cutoffs": [
+        6
+      ],
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "3"
+      },
+      "dmin": 6,
+      "A_dmin": "3",
+      "search_cutoffs": [
+        6
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 30,
+      "transmitted_dimension": 30,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 4.0499959141016006e-05,
+      "counting_seconds": 4.1100080125033855e-05,
+      "elapsed_seconds": 8.160003926604986e-05,
+      "stats": {
+        "work_units": 58,
+        "affine_families": 6,
+        "count_calls": 5,
+        "deviation_nodes": 4,
+        "distance_trials": 1,
+        "dp_families": 2,
+        "dp_states": 22,
+        "generated_pairs": 9,
+        "generation_calls": 9
+      },
+      "binding_elapsed_seconds": 0.0008497000671923161,
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "472"
+      },
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00014629994984716177,
+      "counting_seconds": 0.004178900038823485,
+      "elapsed_seconds": 0.004325199988670647,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 2297,
+        "count_calls": 14,
+        "generation_calls": 32,
+        "generated_pairs": 145,
+        "affine_families": 76,
+        "deviation_nodes": 20,
+        "dp_families": 56,
+        "dp_states": 816,
+        "wef_terminals": 4,
+        "wef_nodes": 508,
+        "coefficient_products": 625
+      },
+      "dmin": 8,
+      "A_dmin": "472",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "472"
+      },
+      "dmin": 8,
+      "A_dmin": "472",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 4.800001624971628e-05,
+      "counting_seconds": 0.0004726999904960394,
+      "elapsed_seconds": 0.0005207000067457557,
+      "stats": {
+        "work_units": 2297,
+        "affine_families": 76,
+        "coefficient_products": 625,
+        "count_calls": 14,
+        "deviation_nodes": 20,
+        "distance_trials": 1,
+        "dp_families": 56,
+        "dp_states": 816,
+        "generated_pairs": 145,
+        "generation_calls": 32,
+        "wef_nodes": 508,
+        "wef_terminals": 4
+      },
+      "binding_elapsed_seconds": 0.0013047000393271446,
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "26"
+      },
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00014430005103349686,
+      "counting_seconds": 0.0019833999685943127,
+      "elapsed_seconds": 0.0021277000196278095,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 871,
+        "count_calls": 9,
+        "generation_calls": 21,
+        "generated_pairs": 45,
+        "affine_families": 26,
+        "deviation_nodes": 14,
+        "dp_families": 12,
+        "dp_states": 192,
+        "wef_terminals": 2,
+        "wef_nodes": 254,
+        "coefficient_products": 295
+      },
+      "dmin": 6,
+      "A_dmin": "26",
+      "search_cutoffs": [
+        6
+      ],
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "26"
+      },
+      "dmin": 6,
+      "A_dmin": "26",
+      "search_cutoffs": [
+        6
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 32,
+      "transmitted_dimension": 32,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 4.740001168102026e-05,
+      "counting_seconds": 0.0001996000064536929,
+      "elapsed_seconds": 0.0002470000181347132,
+      "stats": {
+        "work_units": 871,
+        "affine_families": 26,
+        "coefficient_products": 295,
+        "count_calls": 9,
+        "deviation_nodes": 14,
+        "distance_trials": 1,
+        "dp_families": 12,
+        "dp_states": 192,
+        "generated_pairs": 45,
+        "generation_calls": 21,
+        "wef_nodes": 254,
+        "wef_terminals": 2
+      },
+      "binding_elapsed_seconds": 0.001004299963824451,
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "262"
+      },
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 28,
+      "transmitted_dimension": 28,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0001398000167682767,
+      "counting_seconds": 0.00359740003477782,
+      "elapsed_seconds": 0.003737200051546097,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 1129,
+        "count_calls": 23,
+        "generation_calls": 47,
+        "generated_pairs": 198,
+        "affine_families": 122,
+        "deviation_nodes": 78,
+        "enumerated_families": 44,
+        "dp_families": 44,
+        "dp_states": 572
+      },
+      "dmin": 8,
+      "A_dmin": "262",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "262"
+      },
+      "dmin": 8,
+      "A_dmin": "262",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 28,
+      "transmitted_dimension": 28,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 5.080003757029772e-05,
+      "counting_seconds": 0.00043539993930608034,
+      "elapsed_seconds": 0.00048619997687637806,
+      "stats": {
+        "work_units": 1129,
+        "affine_families": 122,
+        "count_calls": 23,
+        "deviation_nodes": 78,
+        "distance_trials": 1,
+        "dp_families": 44,
+        "dp_states": 572,
+        "enumerated_families": 44,
+        "generated_pairs": 198,
+        "generation_calls": 47
+      },
+      "binding_elapsed_seconds": 0.0014468999579548836,
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "3"
+      },
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 30,
+      "transmitted_dimension": 30,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0001506999833509326,
+      "counting_seconds": 0.0006074999691918492,
+      "elapsed_seconds": 0.0007581999525427818,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 58,
+        "count_calls": 5,
+        "generation_calls": 9,
+        "generated_pairs": 9,
+        "affine_families": 6,
+        "deviation_nodes": 4,
+        "dp_families": 2,
+        "dp_states": 22
+      },
+      "dmin": 6,
+      "A_dmin": "3",
+      "search_cutoffs": [
+        6
+      ],
+      "kind": "pac",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "3"
+      },
+      "dmin": 6,
+      "A_dmin": "3",
+      "search_cutoffs": [
+        6
+      ],
+      "exact": true,
+      "n": 64,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 32,
+      "shortened_dimension": 30,
+      "transmitted_dimension": 30,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 4.970002919435501e-05,
+      "counting_seconds": 4.0599959902465343e-05,
+      "elapsed_seconds": 9.029998909682035e-05,
+      "stats": {
+        "work_units": 58,
+        "affine_families": 6,
+        "count_calls": 5,
+        "deviation_nodes": 4,
+        "distance_trials": 1,
+        "dp_families": 2,
+        "dp_states": 22,
+        "generated_pairs": 9,
+        "generation_calls": 9
+      },
+      "binding_elapsed_seconds": 0.0009883000748232007,
+      "kind": "pac",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "432"
+      },
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0004296000115573406,
+      "counting_seconds": 0.0059423999628052115,
+      "elapsed_seconds": 0.006371999974362552,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 3135,
+        "count_calls": 8,
+        "generation_calls": 12,
+        "generated_pairs": 74,
+        "affine_families": 38,
+        "deviation_nodes": 14,
+        "dp_families": 24,
+        "dp_states": 672,
+        "wef_terminals": 4,
+        "wef_nodes": 1020,
+        "coefficient_products": 1268
+      },
+      "dmin": 8,
+      "A_dmin": "432",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "432"
+      },
+      "dmin": 8,
+      "A_dmin": "432",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00011719996109604836,
+      "counting_seconds": 0.0006018000422045588,
+      "elapsed_seconds": 0.0007190000033006072,
+      "stats": {
+        "work_units": 3135,
+        "affine_families": 38,
+        "coefficient_products": 1268,
+        "count_calls": 8,
+        "deviation_nodes": 14,
+        "distance_trials": 1,
+        "dp_families": 24,
+        "dp_states": 672,
+        "generated_pairs": 74,
+        "generation_calls": 12,
+        "wef_nodes": 1020,
+        "wef_terminals": 4
+      },
+      "binding_elapsed_seconds": 0.0024205000372603536,
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "20"
+      },
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00041310000233352184,
+      "counting_seconds": 0.0031287999590858817,
+      "elapsed_seconds": 0.0035418999614194036,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 1282,
+        "count_calls": 4,
+        "generation_calls": 6,
+        "generated_pairs": 19,
+        "affine_families": 11,
+        "deviation_nodes": 7,
+        "dp_families": 4,
+        "dp_states": 120,
+        "wef_terminals": 2,
+        "wef_nodes": 510,
+        "coefficient_products": 598
+      },
+      "dmin": 6,
+      "A_dmin": "20",
+      "search_cutoffs": [
+        6
+      ],
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "20"
+      },
+      "dmin": 6,
+      "A_dmin": "20",
+      "search_cutoffs": [
+        6
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00011159991845488548,
+      "counting_seconds": 0.00027469999622553587,
+      "elapsed_seconds": 0.00038629991468042135,
+      "stats": {
+        "work_units": 1282,
+        "affine_families": 11,
+        "coefficient_products": 598,
+        "count_calls": 4,
+        "deviation_nodes": 7,
+        "distance_trials": 1,
+        "dp_families": 4,
+        "dp_states": 120,
+        "generated_pairs": 19,
+        "generation_calls": 6,
+        "wef_nodes": 510,
+        "wef_terminals": 2
+      },
+      "binding_elapsed_seconds": 0.0021633999422192574,
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "236"
+      },
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 56,
+      "transmitted_dimension": 56,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00042749999556690454,
+      "counting_seconds": 0.006466099992394447,
+      "elapsed_seconds": 0.006893599987961352,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 589,
+        "count_calls": 17,
+        "generation_calls": 31,
+        "generated_pairs": 184,
+        "affine_families": 134,
+        "deviation_nodes": 134,
+        "enumerated_families": 88
+      },
+      "dmin": 8,
+      "A_dmin": "236",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "236"
+      },
+      "dmin": 8,
+      "A_dmin": "236",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 56,
+      "transmitted_dimension": 56,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00011040002573281527,
+      "counting_seconds": 0.0004504000535234809,
+      "elapsed_seconds": 0.0005608000792562962,
+      "stats": {
+        "work_units": 589,
+        "affine_families": 134,
+        "count_calls": 17,
+        "deviation_nodes": 134,
+        "distance_trials": 1,
+        "enumerated_families": 88,
+        "generated_pairs": 184,
+        "generation_calls": 31
+      },
+      "binding_elapsed_seconds": 0.0022282999707385898,
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "2"
+      },
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 60,
+      "transmitted_dimension": 60,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00040680007077753544,
+      "counting_seconds": 0.0009669999126344919,
+      "elapsed_seconds": 0.0013737999834120274,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 34,
+        "count_calls": 3,
+        "generation_calls": 5,
+        "generated_pairs": 9,
+        "affine_families": 7,
+        "deviation_nodes": 7,
+        "enumerated_families": 2
+      },
+      "dmin": 6,
+      "A_dmin": "2",
+      "search_cutoffs": [
+        6
+      ],
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "2"
+      },
+      "dmin": 6,
+      "A_dmin": "2",
+      "search_cutoffs": [
+        6
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 60,
+      "transmitted_dimension": 60,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0001105000264942646,
+      "counting_seconds": 9.290000889450312e-05,
+      "elapsed_seconds": 0.00020340003538876772,
+      "stats": {
+        "work_units": 34,
+        "affine_families": 7,
+        "count_calls": 3,
+        "deviation_nodes": 7,
+        "distance_trials": 1,
+        "enumerated_families": 2,
+        "generated_pairs": 9,
+        "generation_calls": 5
+      },
+      "binding_elapsed_seconds": 0.0020801000064238906,
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "320"
+      },
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00041360000614076853,
+      "counting_seconds": 0.005915899993851781,
+      "elapsed_seconds": 0.006329499999992549,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 3135,
+        "count_calls": 8,
+        "generation_calls": 12,
+        "generated_pairs": 74,
+        "affine_families": 38,
+        "deviation_nodes": 14,
+        "dp_families": 24,
+        "dp_states": 672,
+        "wef_terminals": 4,
+        "wef_nodes": 1020,
+        "coefficient_products": 1268
+      },
+      "dmin": 8,
+      "A_dmin": "320",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "320"
+      },
+      "dmin": 8,
+      "A_dmin": "320",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00013649999164044857,
+      "counting_seconds": 0.0005822000093758106,
+      "elapsed_seconds": 0.0007187000010162592,
+      "stats": {
+        "work_units": 3135,
+        "affine_families": 38,
+        "coefficient_products": 1268,
+        "count_calls": 8,
+        "deviation_nodes": 14,
+        "distance_trials": 1,
+        "dp_families": 24,
+        "dp_states": 672,
+        "generated_pairs": 74,
+        "generation_calls": 12,
+        "wef_nodes": 1020,
+        "wef_terminals": 4
+      },
+      "binding_elapsed_seconds": 0.0024799000238999724,
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "20"
+      },
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0004390999674797058,
+      "counting_seconds": 0.0030251999851316214,
+      "elapsed_seconds": 0.003464299952611327,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 1282,
+        "count_calls": 4,
+        "generation_calls": 6,
+        "generated_pairs": 19,
+        "affine_families": 11,
+        "deviation_nodes": 7,
+        "dp_families": 4,
+        "dp_states": 120,
+        "wef_terminals": 2,
+        "wef_nodes": 510,
+        "coefficient_products": 598
+      },
+      "dmin": 6,
+      "A_dmin": "20",
+      "search_cutoffs": [
+        6
+      ],
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "20"
+      },
+      "dmin": 6,
+      "A_dmin": "20",
+      "search_cutoffs": [
+        6
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 64,
+      "transmitted_dimension": 64,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00013950001448392868,
+      "counting_seconds": 0.0002861999673768878,
+      "elapsed_seconds": 0.0004256999818608165,
+      "stats": {
+        "work_units": 1282,
+        "affine_families": 11,
+        "coefficient_products": 598,
+        "count_calls": 4,
+        "deviation_nodes": 7,
+        "distance_trials": 1,
+        "dp_families": 4,
+        "dp_states": 120,
+        "generated_pairs": 19,
+        "generation_calls": 6,
+        "wef_nodes": 510,
+        "wef_terminals": 2
+      },
+      "binding_elapsed_seconds": 0.002319199964404106,
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "184"
+      },
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 56,
+      "transmitted_dimension": 56,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00045519997365772724,
+      "counting_seconds": 0.005205899942666292,
+      "elapsed_seconds": 0.005661099916324019,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 589,
+        "count_calls": 17,
+        "generation_calls": 31,
+        "generated_pairs": 184,
+        "affine_families": 134,
+        "deviation_nodes": 134,
+        "enumerated_families": 88
+      },
+      "dmin": 8,
+      "A_dmin": "184",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "184"
+      },
+      "dmin": 8,
+      "A_dmin": "184",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 56,
+      "transmitted_dimension": 56,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00013449997641146183,
+      "counting_seconds": 0.0004368000663816929,
+      "elapsed_seconds": 0.0005713000427931547,
+      "stats": {
+        "work_units": 589,
+        "affine_families": 134,
+        "count_calls": 17,
+        "deviation_nodes": 134,
+        "distance_trials": 1,
+        "enumerated_families": 88,
+        "generated_pairs": 184,
+        "generation_calls": 31
+      },
+      "binding_elapsed_seconds": 0.0024335000198334455,
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "2"
+      },
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 60,
+      "transmitted_dimension": 60,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00043800007551908493,
+      "counting_seconds": 0.0009587999666109681,
+      "elapsed_seconds": 0.001396800042130053,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 34,
+        "count_calls": 3,
+        "generation_calls": 5,
+        "generated_pairs": 9,
+        "affine_families": 7,
+        "deviation_nodes": 7,
+        "enumerated_families": 2
+      },
+      "dmin": 6,
+      "A_dmin": "2",
+      "search_cutoffs": [
+        6
+      ],
+      "kind": "pac",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "6": "2"
+      },
+      "dmin": 6,
+      "A_dmin": "2",
+      "search_cutoffs": [
+        6
+      ],
+      "exact": true,
+      "n": 128,
+      "cutoff": null,
+      "evaluated_cutoff": 6,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 64,
+      "shortened_dimension": 60,
+      "transmitted_dimension": 60,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0001357999863103032,
+      "counting_seconds": 5.9299985878169537e-05,
+      "elapsed_seconds": 0.00019509997218847275,
+      "stats": {
+        "work_units": 34,
+        "affine_families": 7,
+        "count_calls": 3,
+        "deviation_nodes": 7,
+        "distance_trials": 1,
+        "enumerated_families": 2,
+        "generated_pairs": 9,
+        "generation_calls": 5
+      },
+      "binding_elapsed_seconds": 0.0017757000168785453,
+      "kind": "pac",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "96"
+      },
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0014631999656558037,
+      "counting_seconds": 0.006569699966348708,
+      "elapsed_seconds": 0.008032899932004511,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 2219,
+        "count_calls": 2,
+        "wef_terminals": 2,
+        "wef_nodes": 1022,
+        "coefficient_products": 1192
+      },
+      "dmin": 8,
+      "A_dmin": "96",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "96"
+      },
+      "dmin": 8,
+      "A_dmin": "96",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00035360001493245363,
+      "counting_seconds": 0.0004419999895617366,
+      "elapsed_seconds": 0.0007956000044941902,
+      "stats": {
+        "work_units": 2219,
+        "coefficient_products": 1192,
+        "count_calls": 2,
+        "distance_trials": 1,
+        "wef_nodes": 1022,
+        "wef_terminals": 2
+      },
+      "binding_elapsed_seconds": 0.006510399980470538,
+      "kind": "polar",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "7": "48"
+      },
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 7,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0014541000127792358,
+      "counting_seconds": 0.006399400066584349,
+      "elapsed_seconds": 0.007853500079363585,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 2155,
+        "count_calls": 2,
+        "wef_terminals": 2,
+        "wef_nodes": 1022,
+        "coefficient_products": 1128
+      },
+      "dmin": 7,
+      "A_dmin": "48",
+      "search_cutoffs": [
+        7
+      ],
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "7": "48"
+      },
+      "dmin": 7,
+      "A_dmin": "48",
+      "search_cutoffs": [
+        7
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 7,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0003554000286385417,
+      "counting_seconds": 0.0004195999354124069,
+      "elapsed_seconds": 0.0007749999640509486,
+      "stats": {
+        "work_units": 2155,
+        "coefficient_products": 1128,
+        "count_calls": 2,
+        "distance_trials": 1,
+        "wef_nodes": 1022,
+        "wef_terminals": 2
+      },
+      "binding_elapsed_seconds": 0.00585799990221858,
+      "kind": "polar",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "48"
+      },
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 112,
+      "transmitted_dimension": 112,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0013882999774068594,
+      "counting_seconds": 0.005011299974285066,
+      "elapsed_seconds": 0.0063995999516919255,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 253,
+        "count_calls": 7,
+        "generation_calls": 11,
+        "generated_pairs": 78,
+        "affine_families": 62,
+        "deviation_nodes": 62,
+        "enumerated_families": 32
+      },
+      "dmin": 8,
+      "A_dmin": "48",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "48"
+      },
+      "dmin": 8,
+      "A_dmin": "48",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 112,
+      "transmitted_dimension": 112,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00033439998514950275,
+      "counting_seconds": 0.00032870005816221237,
+      "elapsed_seconds": 0.0006631000433117151,
+      "stats": {
+        "work_units": 253,
+        "affine_families": 62,
+        "count_calls": 7,
+        "deviation_nodes": 62,
+        "distance_trials": 1,
+        "enumerated_families": 32,
+        "generated_pairs": 78,
+        "generation_calls": 11
+      },
+      "binding_elapsed_seconds": 0.005763299996033311,
+      "kind": "polar",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "7": "24"
+      },
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 7,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 120,
+      "transmitted_dimension": 120,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0014429999282583594,
+      "counting_seconds": 0.0039654000429436564,
+      "elapsed_seconds": 0.005408399971202016,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 181,
+        "count_calls": 7,
+        "generation_calls": 11,
+        "generated_pairs": 54,
+        "affine_families": 46,
+        "deviation_nodes": 46,
+        "enumerated_families": 16
+      },
+      "dmin": 7,
+      "A_dmin": "24",
+      "search_cutoffs": [
+        7
+      ],
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "7": "24"
+      },
+      "dmin": 7,
+      "A_dmin": "24",
+      "search_cutoffs": [
+        7
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 7,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 120,
+      "transmitted_dimension": 120,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0003280999371781945,
+      "counting_seconds": 0.0001838000025600195,
+      "elapsed_seconds": 0.000511899939738214,
+      "stats": {
+        "work_units": 181,
+        "affine_families": 46,
+        "count_calls": 7,
+        "deviation_nodes": 46,
+        "distance_trials": 1,
+        "enumerated_families": 16,
+        "generated_pairs": 54,
+        "generation_calls": 11
+      },
+      "binding_elapsed_seconds": 0.005899399984627962,
+      "kind": "polar",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "96"
+      },
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0014685000060126185,
+      "counting_seconds": 0.006239600013941526,
+      "elapsed_seconds": 0.007708100019954145,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 2219,
+        "count_calls": 2,
+        "wef_terminals": 2,
+        "wef_nodes": 1022,
+        "coefficient_products": 1192
+      },
+      "dmin": 8,
+      "A_dmin": "96",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "96"
+      },
+      "dmin": 8,
+      "A_dmin": "96",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00038519990630447865,
+      "counting_seconds": 0.0004251000937074423,
+      "elapsed_seconds": 0.0008103000000119209,
+      "stats": {
+        "work_units": 2219,
+        "coefficient_products": 1192,
+        "count_calls": 2,
+        "distance_trials": 1,
+        "wef_nodes": 1022,
+        "wef_terminals": 2
+      },
+      "binding_elapsed_seconds": 0.006124400068074465,
+      "kind": "pac",
+      "mode": "none"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "7": "48"
+      },
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 7,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0015173000283539295,
+      "counting_seconds": 0.006042900029569864,
+      "elapsed_seconds": 0.007560200057923794,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 2155,
+        "count_calls": 2,
+        "wef_terminals": 2,
+        "wef_nodes": 1022,
+        "coefficient_products": 1128
+      },
+      "dmin": 7,
+      "A_dmin": "48",
+      "search_cutoffs": [
+        7
+      ],
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "7": "48"
+      },
+      "dmin": 7,
+      "A_dmin": "48",
+      "search_cutoffs": [
+        7
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 7,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 128,
+      "transmitted_dimension": 128,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0003831000067293644,
+      "counting_seconds": 0.00043160002678632736,
+      "elapsed_seconds": 0.0008147000335156918,
+      "stats": {
+        "work_units": 2155,
+        "coefficient_products": 1128,
+        "count_calls": 2,
+        "distance_trials": 1,
+        "wef_nodes": 1022,
+        "wef_terminals": 2
+      },
+      "binding_elapsed_seconds": 0.006709099980071187,
+      "kind": "pac",
+      "mode": "puncture"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "48"
+      },
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 112,
+      "transmitted_dimension": 112,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.001478999969549477,
+      "counting_seconds": 0.004982699989341199,
+      "elapsed_seconds": 0.0064616999588906765,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 253,
+        "count_calls": 7,
+        "generation_calls": 11,
+        "generated_pairs": 78,
+        "affine_families": 62,
+        "deviation_nodes": 62,
+        "enumerated_families": 32
+      },
+      "dmin": 8,
+      "A_dmin": "48",
+      "search_cutoffs": [
+        8
+      ],
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "8": "48"
+      },
+      "dmin": 8,
+      "A_dmin": "48",
+      "search_cutoffs": [
+        8
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 8,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 112,
+      "transmitted_dimension": 112,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.00040030002128332853,
+      "counting_seconds": 0.00033299997448921204,
+      "elapsed_seconds": 0.0007332999957725406,
+      "stats": {
+        "work_units": 253,
+        "affine_families": 62,
+        "count_calls": 7,
+        "deviation_nodes": 62,
+        "distance_trials": 1,
+        "enumerated_families": 32,
+        "generated_pairs": 78,
+        "generation_calls": 11
+      },
+      "binding_elapsed_seconds": 0.006021299981512129,
+      "kind": "pac",
+      "mode": "shorten"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "7": "24"
+      },
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 7,
+      "backend": "python",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 120,
+      "transmitted_dimension": 120,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0015502000460401177,
+      "counting_seconds": 0.003874399932101369,
+      "elapsed_seconds": 0.005424599978141487,
+      "stats": {
+        "distance_trials": 1,
+        "work_units": 181,
+        "count_calls": 7,
+        "generation_calls": 11,
+        "generated_pairs": 54,
+        "affine_families": 46,
+        "deviation_nodes": 46,
+        "enumerated_families": 16
+      },
+      "dmin": 7,
+      "A_dmin": "24",
+      "search_cutoffs": [
+        7
+      ],
+      "kind": "pac",
+      "mode": "mixed"
+    },
+    {
+      "spectrum": {
+        "0": "1",
+        "7": "24"
+      },
+      "dmin": 7,
+      "A_dmin": "24",
+      "search_cutoffs": [
+        7
+      ],
+      "exact": true,
+      "n": 256,
+      "cutoff": null,
+      "evaluated_cutoff": 7,
+      "backend": "cpp",
+      "policy": "auto",
+      "original_dimension": 128,
+      "shortened_dimension": 120,
+      "transmitted_dimension": 120,
+      "kernel_dimension": 0,
+      "preprocessing_seconds": 0.0005752000724896789,
+      "counting_seconds": 0.00017319992184638977,
+      "elapsed_seconds": 0.0007483999943360686,
+      "stats": {
+        "work_units": 181,
+        "affine_families": 46,
+        "count_calls": 7,
+        "deviation_nodes": 46,
+        "distance_trials": 1,
+        "enumerated_families": 16,
+        "generated_pairs": 54,
+        "generation_calls": 11
+      },
+      "binding_elapsed_seconds": 0.006311699980869889,
+      "kind": "pac",
+      "mode": "mixed"
+    }
+  ]
+}

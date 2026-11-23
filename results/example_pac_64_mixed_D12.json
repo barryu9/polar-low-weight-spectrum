@@ -1,0 +1,39 @@
+{
+  "spectrum": {
+    "0": "1",
+    "6": "3",
+    "7": "92",
+    "8": "266",
+    "9": "32",
+    "10": "232",
+    "11": "2500",
+    "12": "5136"
+  },
+  "exact": true,
+  "n": 64,
+  "cutoff": 12,
+  "evaluated_cutoff": 12,
+  "backend": "python",
+  "policy": "auto",
+  "original_dimension": 32,
+  "shortened_dimension": 30,
+  "transmitted_dimension": 30,
+  "kernel_dimension": 0,
+  "preprocessing_seconds": 0.0001727000344544649,
+  "counting_seconds": 0.006937499972991645,
+  "elapsed_seconds": 0.00711020000744611,
+  "stats": {
+    "count_calls": 43,
+    "work_units": 12981,
+    "generation_calls": 47,
+    "generated_pairs": 262,
+    "affine_families": 186,
+    "deviation_nodes": 99,
+    "dp_families": 135,
+    "dp_states": 12192,
+    "enumerated_families": 17
+  },
+  "kind": "pac",
+  "mode": "mixed",
+  "median_elapsed_seconds": 0.00711020000744611
+}
